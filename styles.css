@@ -1,0 +1,221 @@
+.body {
+    background-color: beige;
+    text-align: center;
+    
+}
+
+.h2 {
+
+    text-align: center;
+    text-rendering: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+.h1 {
+
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: darkkhaki;
+    
+}
+
+.campanhas {
+
+    text-align: center;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly; 
+    border: 20px;
+   
+  }
+  
+  .card1 {
+   
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  size-adjust: auto;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  transition: all 0.3 ease;
+  background-color: darkkhaki; 
+  border: 1px solid #ccc;   
+  padding: 20px;            
+  border-radius: 8px;     
+  width: 300px;    
+
+  }
+
+  .card1:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+  }
+
+
+ .card2 {
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 250px;
+  height: 200px;
+  size-adjust: auto;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  transition: all 0.3 ease;
+  background-color: darkkhaki; 
+  border: 1px solid #ccc;   
+  padding: 20px;            
+  border-radius: 8px;      
+  width: 300px;    
+
+ }
+
+ .card2:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+  }
+
+
+ .card3 {
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 250px;
+  height: 200px;
+  size-adjust: auto;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  transition: all 0.3 ease;
+  background-color: darkkhaki; 
+  border: 1px solid #ccc;   
+  padding: 20px;            
+  border-radius: 8px;      
+  width: 300px;
+
+ }
+
+ .card3:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+  }
+
+  .historiaspersonagens {
+
+    text-align: center;
+  }
+
+
+  .menu {
+    cursor: pointer;
+    margin-bottom: 60px;
+    border: #f0f0f0;
+    border-bottom: #f0f0f0;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: darkkhaki;
+    color: black;
+    border-radius: 5px;
+    user-select: none;
+    transition: background-color 0.3s;
+    padding: 30px;
+
+}
+
+.toggle-label:hover {
+    background-color: rgb(189, 142, 73);
+}
+
+.hidden {
+    display: none;
+}
+
+.arrow {
+    transition: transform 0.3s, color 0.3s;
+    margin-left: 10px; 
+}
+
+#toggleCheckbox1:checked + .toggle-label .arrow {
+    transform: rotate(180deg);
+}
+
+#toggleCheckbox1:checked ~ .hidden-content {
+    display: block;
+}
+
+#toggleCheckbox2:checked + .toggle-label .arrow {
+    transform: rotate(180deg);
+}
+
+#toggleCheckbox2:checked ~ .hidden-content {
+    display: block;
+}
+
+
+.hidden-content {
+    display: none;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.rodape {
+  text-align: center;
+}
+
+.contatoform {
+
+  width: 60%;
+  margin: 0 auto;         
+  padding: 30px;          
+  border: 1px solid #ccc; 
+  border-radius: 20px;     
+  background-color: darkkhaki; 
+}
+
+.contatoform label {
+  display: block;          
+  margin-bottom: 5px;     
+}
+
+.contatoform input,
+.contatoform textarea {
+  width: 100%;            
+  padding: 10px;          
+  margin-bottom: 15px;    
+  border: 1px solid #ccc; 
+  border-radius: 4px;     
+}
+
+.contatoform button {
+  background-color: #4CAF50; 
+  color: white;              
+  padding: 10px 15px;        
+  border: none;              
+  border-radius: 4px;       
+  cursor: pointer;          
+}
+
+.contatoform button:hover {
+  background-color: #45a049; 
+}
+
+.formulario10 {
+
+  text-align: center;
+}
+
